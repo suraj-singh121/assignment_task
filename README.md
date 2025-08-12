@@ -1,3 +1,6 @@
+## 📥 Download APK
+[Click here to download APK from Google Drive](https://drive.google.com/drive/folders/1nnpw5v2xoaYxT3SpPVCv2pGP81jhkXZF?usp=sharing)
+
 # assignment_task
 
 A new Flutter project.
