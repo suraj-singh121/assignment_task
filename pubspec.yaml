@@ -1,0 +1,40 @@
+#name: assignment_task
+name: assignment_task
+
+description: "A new Flutter project."
+#name: flutter_picsum_app
+#description: Picsum assignment with BLoC
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  #http: ^0.13.6
+  http: ^1.5.0
+  equatable: ^2.0.5
+ # google_fonts: ^4.0.4
+  google_fonts: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/Montserrat-Regular.ttf
+    - assets/fonts/Montserrat-SemiBold.ttf
+
+  fonts:
+      - family: Montserrat
+        fonts:
+          - asset: assets/fonts/Montserrat-Regular.ttf
+            weight: 400
+          - asset: assets/fonts/Montserrat-SemiBold.ttf
+            weight: 600
